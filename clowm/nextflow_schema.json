@@ -133,7 +133,8 @@
             },
             "required": [
                 "ref",
-                "bam_tumor"
+                "bam_tumor",
+		"out_dir"
             ]
         },
         "qc_options": {
