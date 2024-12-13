@@ -1,0 +1,22 @@
+{
+  "inputParameters": [
+      "bam_normal",
+      "bam_tumor",
+      "ref"
+  ],
+  "outputParameters": [
+      "out_dir"
+  ],
+  "exampleParameters": {
+      "ref": "s3://workflow-exampledata/epi2me-ont-somatic-variation/GCA_000001405.15_GRCh38_no_alt_analysis_set_chr20.fna", 	
+      "bed": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo.bed",
+      "bam_normal": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo_normal.bam",
+      "bam_tumor": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo_tumor.bam",
+      "sample_name": "MYSAMPLE",
+      "snv": true,
+      "sv": true,
+      "mod": true,
+      "normal_min_coverage": 0,
+      "tumor_min_coverage": 0
+  }
+}
