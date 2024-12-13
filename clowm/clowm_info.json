@@ -12,6 +12,7 @@
       "bed": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo.bed",
       "bam_normal": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo_normal.bam",
       "bam_tumor": "s3://workflow-exampledata/epi2me-ont-somatic-variation/demo_tumor.bam",
+      "override_basecaller_cfg": "dna_r10.4.1_e8.2_400bps_sup@v3.5.2",
       "sample_name": "MYSAMPLE",
       "snv": true,
       "sv": true,
